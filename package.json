@@ -1,0 +1,29 @@
+{
+  "name": "selenium-cucumberjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js ./features/test.feature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laxminarayanaboga/selenium-cucumberJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laxminarayanaboga/selenium-cucumberJs/issues"
+  },
+  "homepage": "https://github.com/laxminarayanaboga/selenium-cucumberJs#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.2",
+    "chai": "^4.3.6",
+    "chromedriver": "^99.0.0"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.1.1"
+  }
+}
